@@ -8,14 +8,7 @@ import Image from "next/image";
 
 export default function TechStack() {
     return (
-        <motion.section
-            id="skills"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="flex flex-col items-center justify-center mt-[calc(100vh)]"
-        >
+        <section id="skills" className="flex flex-col items-center justify-center mt-[calc(100vh)]">
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
@@ -44,7 +37,7 @@ export default function TechStack() {
                 <div className="absolute inset-y-0 left-0 w-1/4 pointer-events-none bg-gradient-to-r from-primary"></div>
                 <div className="absolute inset-y-0 right-0 w-1/4 pointer-events-none bg-gradient-to-l from-primary"></div>
             </motion.div>
-        </motion.section>
+        </section>
     );
 }
 

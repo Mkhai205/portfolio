@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/sections/Navbar";
 import StarsCanvas from "@/components/sub/StarBackground";
 import Footer from "@/components/sections/Footer";
+import { Toaster } from "sonner";
 
 const inter = Inter({
     variable: "--font-inter",
@@ -29,6 +30,7 @@ export default function RootLayout({
                 <Navbar />
                 {children}
                 <Footer />
+                <Toaster />
             </body>
         </html>
     );
