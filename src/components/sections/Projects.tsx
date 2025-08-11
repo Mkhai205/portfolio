@@ -12,7 +12,6 @@ export default function Projects() {
                 variants={fadeInUp}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true }}
                 className="header-section"
             >
                 My Projects
@@ -21,7 +20,6 @@ export default function Projects() {
                 variants={staggerContainer}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true }}
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-20 w-full"
             >
                 {ProjectCards.map((project, index) => (

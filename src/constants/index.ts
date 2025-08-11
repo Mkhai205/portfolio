@@ -31,6 +31,10 @@ export const Sections = [
         id: "skills",
     },
     {
+        name: "Experiences",
+        id: "education-and-experiences",
+    },
+    {
         name: "Projects",
         id: "projects",
     },
@@ -62,7 +66,7 @@ export const Frontend_techs = [
         image: "/images/frontend/react.png",
     },
     {
-        tech_name: "Tailwind_css",
+        tech_name: "Tailwind_CSS",
         image: "/images/frontend/tailwind.png",
     },
     {
@@ -97,6 +101,10 @@ export const Backend_techs = [
         image: "/images/backend/express.png",
     },
     {
+        tech_name: "Nestjs",
+        image: "/images/backend/Nest.js.png",
+    },
+    {
         tech_name: "Mongodb",
         image: "/images/backend/mongodb.png",
     },
@@ -121,8 +129,20 @@ export const Backend_techs = [
         image: "/images/backend/rabbitmq.png",
     },
     {
+        tech_name: "Socket.io",
+        image: "/images/backend/socket.io.png",
+    },
+    {
         tech_name: "Prisma",
         image: "/images/backend/prisma.webp",
+    },
+    {
+        tech_name: "Spring_Boot",
+        image: "/images/backend/java-spring.png",
+    },
+    {
+        tech_name: "Java",
+        image: "/images/backend/java.png",
     },
     {
         tech_name: "C++",
@@ -154,6 +174,10 @@ export const Tools = [
     {
         tech_name: "Docker",
         image: "/images/tools/docker.png",
+    },
+    {
+        tech_name: "AWS",
+        image: "/images/tools/AWS.png",
     },
     {
         tech_name: "Figma",

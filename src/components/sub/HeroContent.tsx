@@ -13,7 +13,7 @@ const HeroContent = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="absolute top-36 flex flex-row items-center justify-center px-3 md:px-20 w-full z-[10]"
+            className="flex flex-row items-center justify-center px-3 md:px-20 mt-40 w-full"
         >
             <div className="h-full w-full flex flex-col gap-5 justify-center text-center md:text-start">
                 <motion.div
@@ -29,17 +29,12 @@ const HeroContent = () => {
                     className="mt-4 text-2xl lg:text-4xl font-bold text-white max-w-[600px] w-full"
                 >
                     <span>
-                        Crafting
+                        Hi, I'm
                         <span className="text-transparent bg-clip-text bg-gradient-primary">
                             {" "}
-                            Scalable{" "}
+                            Manh Khai{" "}
                         </span>
-                        Software &{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-primary">
-                            {" "}
-                            Immersive Digital{" "}
-                        </span>{" "}
-                        Experiences
+                        — Software Engineer & Full-Stack Developer
                     </span>
                 </motion.div>
 
@@ -49,7 +44,11 @@ const HeroContent = () => {
                 >
                     <TextType
                         text={[
-                            `I’m Manh Khai — a software engineer specializing in building high-performance web applications and intuitive user interfaces, blending robust backend architecture with elegant front-end design.`,
+                            "Engineering scalable solutions with precision and elegance.",
+                            "Delivering high-performance apps with futuristic design.",
+                            "Where cutting-edge technology meets refined user experience.",
+                            "Blending creativity and engineering for the next era of the web.",
+                            "Empowering brands through technology that inspires.",
                             "Happy coding!",
                         ]}
                         typingSpeed={100}

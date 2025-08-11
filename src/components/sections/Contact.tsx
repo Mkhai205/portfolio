@@ -122,12 +122,11 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center px-4">
+        <div id="contact" className="flex flex-col items-center justify-center px-4">
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true }}
                 className="header-section"
             >
                 Contact Me

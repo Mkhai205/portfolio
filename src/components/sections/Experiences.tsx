@@ -42,15 +42,18 @@ export default function Experiences() {
     const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
     return (
-        <div className="flex flex-col items-center justify-center px-6 md:px-20" ref={containerRef}>
+        <div
+            id="education-and-experiences"
+            className="flex flex-col items-center justify-center px-6 md:px-20"
+            ref={containerRef}
+        >
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true }}
                 className="header-section"
             >
-                My Education and Experiences
+                Education and Experiences
             </motion.h2>
             <div ref={ref} className="relative pb-20">
                 {Education_and_experiences.map((item, index) => (
@@ -92,7 +95,6 @@ export default function Experiences() {
                                     key={contentIndex}
                                     initial={{ opacity: 0, y: 20 }}
                                     whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
                                     transition={{
                                         duration: 0.4,
                                         delay: index * 0.1 + contentIndex * 0.05,

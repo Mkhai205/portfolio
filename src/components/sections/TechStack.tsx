@@ -8,12 +8,11 @@ import Image from "next/image";
 
 export default function TechStack() {
     return (
-        <section id="skills" className="flex flex-col items-center justify-center mt-[calc(100vh)]">
+        <section id="skills" className="flex flex-col items-center justify-center">
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
                 whileInView="animate"
-                viewport={{ once: true }}
                 className="header-section"
             >
                 Tech Stack
