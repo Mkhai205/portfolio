@@ -221,33 +221,181 @@ export const Education_and_experiences = [
     },
 ];
 
-export const ProjectCards = [
+export interface IProject {
+    id: string;
+    name: string;
+    overview: string;
+    description: string;
+    type: "Personal" | "Team";
+    technologies: string[];
+    features: string[];
+    images: string[];
+    codeUrl: string;
+    deployUrl: string;
+}
+
+export const PROJECTS: IProject[] = [
     {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
+        id: "chat-app",
+        name: "Real-Time Chat Application",
+        overview:
+            "Scalable real-time chat application built with microservices architecture and modern web technologies",
         description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+            "A full-stack real-time messaging platform featuring microservices architecture for enhanced scalability and maintainability. Built with TypeScript and Next.js frontend, this application delivers seamless instant messaging with modern UI/UX design. The project demonstrates expertise in distributed system design, real-time communication protocols, and modern web development practices.",
+        type: "Personal",
+        technologies: [
+            "Next.js 15",
+            "Node.js",
+            "TypeScript",
+            "React 19",
+            "TailwindCSS",
+            "Shadcn/ui",
+            "Socket.IO",
+            "Express.js",
+            "MongoDB",
+            "Redis",
+            "RabbitMQ",
+            "Cloudinary",
+            "JWT",
+        ],
+        features: [
+            "Real-time Messaging with Socket.IO and typing indicators and online status",
+            "Image Sharing with automatic optimization via Cloudinary",
+            "User Authentication with secure JWT-based system",
+            "Message Status with read receipts and seen tracking",
+            "Microservices Architecture with distributed backend services",
+            "Email Notifications using RabbitMQ message queue",
+        ],
+        images: [
+            "/images/projects/chat-app/chat-app-login.png",
+            "/images/projects/chat-app/chat-app-verify-code.png",
+            "/images/projects/chat-app/chat-app-chat1.png",
+            "/images/projects/chat-app/chat-app-chat2.png",
+            "/images/projects/chat-app/chat-app-chat3.png",
+        ],
+        codeUrl: "https://github.com/Mkhai205/chat-app",
+        deployUrl: "",
     },
     {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
+        id: "instagram-clone",
+        name: "Instagram Clone",
+        overview:
+            "A feature-rich social media platform built with modern web technologies, replicating Instagram's core functionality with seamless user experience.",
         description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+            "Instagram Clone is a comprehensive full-stack social media application that recreates the essential features of Instagram. Built with Next.js 14 and TypeScript, this project demonstrates advanced web development skills including real-time interactions, secure authentication, and scalable database design. The application features a modern, responsive interface powered by Tailwind CSS and Radix UI components, delivering an authentic social media experience.",
+        type: "Personal",
+        technologies: [
+            "Next.js 14",
+            "React 18",
+            "PostgreSQL",
+            "TypeScript",
+            "Tailwind CSS",
+            "Radix UI",
+            "NextAuth.js",
+            "Prisma ORM",
+            "UploadThing",
+            "React Hook Form",
+            "Zod",
+            "Lucide React",
+        ],
+        features: [
+            "User Authentication & Authorization with NextAuth.js",
+            "Post Creation & Management with photo uploads and captions",
+            "Social Interactions including like, comment, and save posts",
+            "Follow System with real-time follower/following updates",
+            "User Profiles with customizable bio and post galleries",
+            "Real-time Updates with dynamic content and interactions",
+        ],
+        images: [
+            "/images/projects/instagram/instagram-login.png",
+            "/images/projects/instagram/instagram-home-dark.png",
+            "/images/projects/instagram/instagram-home-light.png",
+            "/images/projects/instagram/instagram-create-post1.png",
+            "/images/projects/instagram/instagram-create-post2.png",
+            "/images/projects/instagram/instagram-my-profile.png",
+            "/images/projects/instagram/instagram-friend-profile.png",
+            "/images/projects/instagram/instagram-post.png",
+            "/images/projects/instagram/instagram-settings.png",
+        ],
+        codeUrl: "https://github.com/Mkhai205/instagram-clone",
+        deployUrl: "https://instagram-clone-psi-henna.vercel.app/",
     },
     {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
+        id: "task-manager",
+        name: "Task Manager System",
+        overview:
+            "Empowering teams with intelligent task orchestration and real-time collaboration",
         description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+            "A comprehensive task management system designed to streamline workflow efficiency and enhance team collaboration. Built with modern full-stack technologies, this platform provides robust administrative controls and intuitive user experiences. The application features role-based access control, real-time progress tracking, and comprehensive reporting capabilities to optimize productivity across organizations.",
+        type: "Personal",
+        technologies: [
+            "React 19",
+            "Vite",
+            "Recharts",
+            "Tailwind CSS",
+            "React Router",
+            "Axios",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "JWT",
+            "Multer",
+            "ExcelJS",
+            "bcryptjs",
+        ],
+        features: [
+            "Role-Based Access Control with separate admin and user dashboards",
+            "Interactive Task Management with priority levels and status tracking",
+            "Real-Time Progress Monitoring with dynamic progress calculation",
+            "Advanced Dashboard Analytics with comprehensive charts and statistics",
+            "File Attachment System with secure storage integration",
+            "Export & Reporting with detailed Excel reports generation",
+        ],
+        images: [
+            "/images/projects/task-manager/task-manager-login.png",
+            "/images/projects/task-manager/task-manager-signup.png",
+            "/images/projects/task-manager/task-manager-admin-dashboard.png",
+            "/images/projects/task-manager/task-manager-admin-create-task.png",
+            "/images/projects/task-manager/task-manager-admin-manage-tasks.png",
+            "/images/projects/task-manager/task-manager-admin-team-members.png",
+            "/images/projects/task-manager/task-manager-member-dashboard.png",
+        ],
+        codeUrl: "https://github.com/Mkhai205/task-manager",
+        deployUrl: "",
     },
     {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
+        id: "weather-app",
+        name: "Weather App",
+        overview:
+            "A comprehensive weather application with real-time data, multi-language support, and interactive visualizations.",
         description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+            "A comprehensive weather application with real-time data, multi-language support, and interactive visualizations for accurate weather monitoring and planning.",
+        type: "Personal",
+        technologies: [
+            "React 19",
+            "Next.js 15",
+            "TypeScript",
+            "Tailwind CSS",
+            "OpenWeatherMap API",
+            "Leaflet Maps",
+            "i18next",
+        ],
+        features: [
+            "Real-time Weather Data with live updates",
+            "5-Day Weather Forecast with hourly breakdowns",
+            "Interactive Weather Map using Leaflet",
+            "Air Quality Monitoring with AQI tracking",
+            "UV Index Tracking with safety recommendations",
+            "Seamless theme switching for comfortable viewing in any lighting condition",
+            "Multilingual Support (English & Vietnamese)",
+        ],
+        images: [
+            "/images/projects/weather-app/weather-app-laptop-dark.png",
+            "/images/projects/weather-app/weather-app-laptop-light.png",
+            "/images/projects/weather-app/weather-app-laptop-dark-vi.png",
+        ],
+        codeUrl: "https://github.com/Mkhai205/weather-app",
+        deployUrl: "",
     },
 ];

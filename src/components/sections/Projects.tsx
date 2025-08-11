@@ -1,9 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import ProjectCard from "@/components/sub/ProjectCard";
 import { fadeInUp, staggerContainer } from "@/utils/motion";
-import { ProjectCards } from "@/constants";
+import { PROJECTS } from "@/constants";
+import ProjectCard from "../sub/ProjectCard";
 
 export default function Projects() {
     return (
@@ -22,14 +22,8 @@ export default function Projects() {
                 whileInView="animate"
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4 md:px-20 w-full"
             >
-                {ProjectCards.map((project, index) => (
-                    <ProjectCard
-                        key={index}
-                        src={project.src}
-                        title={project.title}
-                        description={project.description}
-                        techstack={project.techstack}
-                    />
+                {PROJECTS.map((project) => (
+                    <ProjectCard key={project.id} project={project} />
                 ))}
             </motion.div>
         </section>
