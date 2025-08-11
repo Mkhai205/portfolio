@@ -128,7 +128,7 @@ export default function ContactForm() {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
+                className="header-section"
             >
                 Contact Me
             </motion.h2>
@@ -215,7 +215,7 @@ export default function ContactForm() {
 
                         <Button
                             type="submit"
-                            className="w-full bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 
+                            className="w-full bg-gradient-primary hover:from-purple-600 
                             hover:to-cyan-600 transition-colors cursor-pointer"
                             disabled={isSubmitting || recaptchaValue === ""}
                         >

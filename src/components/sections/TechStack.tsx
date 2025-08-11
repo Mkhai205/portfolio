@@ -14,7 +14,7 @@ export default function TechStack() {
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
+                className="header-section"
             >
                 Tech Stack
             </motion.h2>

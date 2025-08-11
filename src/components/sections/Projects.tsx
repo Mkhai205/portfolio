@@ -7,20 +7,13 @@ import { ProjectCards } from "@/constants";
 
 export default function Projects() {
     return (
-        <motion.section
-            id="projects"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="flex flex-col items-center justify-center"
-        >
+        <section id="projects" className="flex flex-col items-center justify-center">
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
                 whileInView="animate"
                 viewport={{ once: true }}
-                className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20"
+                className="header-section"
             >
                 My Projects
             </motion.h2>
@@ -41,6 +34,6 @@ export default function Projects() {
                     />
                 ))}
             </motion.div>
-        </motion.section>
+        </section>
     );
 }

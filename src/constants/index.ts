@@ -1,84 +1,3 @@
-export const Skill_data = [
-    {
-        skill_name: "Html 5",
-        Image: "/html.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Css",
-        Image: "/css.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Java Script",
-        Image: "/js.png",
-        width: 65,
-        height: 65,
-    },
-    {
-        skill_name: "Tailwind Css",
-        Image: "/tailwind.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "React",
-        Image: "/react.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Redux",
-        Image: "/redux.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "React Query",
-        Image: "/reactquery.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Type Script",
-        Image: "/ts.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Next js 13",
-        Image: "/next.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Framer Motion",
-        Image: "/framer.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Stripe Payment",
-        Image: "/stripe.webp",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Node js",
-        Image: "/node-js.png",
-        width: 80,
-        height: 80,
-    },
-    {
-        skill_name: "Mongo db",
-        Image: "/mongodb.png",
-        width: 40,
-        height: 40,
-    },
-];
-
 export const Socials = [
     {
         name: "Github",
@@ -108,30 +27,6 @@ export const Sections = [
     {
         name: "Contact",
         id: "contact",
-    },
-];
-
-export const ProjectCards = [
-    {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
-        description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
-    },
-    {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
-        description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
-    },
-    {
-        src: "/images/ai-saas.png",
-        title: "AI SaaS Platform",
-        description:
-            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
-        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
     },
 ];
 
@@ -253,5 +148,72 @@ export const Tools = [
     {
         tech_name: "Figma",
         image: "/images/tools/figma.png",
+    },
+];
+
+export const Education_and_experiences = [
+    {
+        title: "Software Developer",
+        job: "Security & Defense Projects",
+        date: "2021-2023",
+        contents: [
+            "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
+            "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+            "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
+            "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+            "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+        ],
+    },
+    {
+        title: "Back-End Developer",
+        job: "Car Manufacture",
+        date: "2023-2024",
+        contents: [
+            "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+            "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+            "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+            "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+            "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+        ],
+    },
+    {
+        title: "Freelance Developer",
+        job: "Self-Employed",
+        date: "2025-Present",
+        contents: [
+            "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+            "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+        ],
+    },
+];
+
+export const ProjectCards = [
+    {
+        src: "/images/ai-saas.png",
+        title: "AI SaaS Platform",
+        description:
+            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
+        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+    },
+    {
+        src: "/images/ai-saas.png",
+        title: "AI SaaS Platform",
+        description:
+            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
+        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+    },
+    {
+        src: "/images/ai-saas.png",
+        title: "AI SaaS Platform",
+        description:
+            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
+        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
+    },
+    {
+        src: "/images/ai-saas.png",
+        title: "AI SaaS Platform",
+        description:
+            "A modern SaaS platform built with Next.js and OpenAI integration, featuring real-time AI-powered content generation and analytics.",
+        techstack: ["Next.js", "OpenAI", "TailwindCSS"],
     },
 ];

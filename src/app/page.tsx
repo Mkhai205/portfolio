@@ -1,4 +1,5 @@
 import Contact from "@/components/sections/Contact";
+import Experiences from "@/components/sections/Experiences";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import TechStack from "@/components/sections/TechStack";
@@ -9,10 +10,9 @@ export default function HomePage() {
             <div className="flex flex-col gap-10">
                 <Hero />
                 <TechStack />
+                <Experiences />
                 <Projects />
                 <Contact />
-                {/* <Skills />
-        <Encryption /> */}
             </div>
         </main>
     );

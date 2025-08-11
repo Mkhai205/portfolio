@@ -30,12 +30,12 @@ const HeroContent = () => {
                 >
                     <span>
                         Crafting
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                        <span className="text-transparent bg-clip-text bg-gradient-primary">
                             {" "}
                             Scalable{" "}
                         </span>
                         Software &{" "}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                        <span className="text-transparent bg-clip-text bg-gradient-primary">
                             {" "}
                             Immersive Digital{" "}
                         </span>{" "}
