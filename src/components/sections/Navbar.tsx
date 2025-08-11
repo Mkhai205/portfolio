@@ -115,7 +115,7 @@ const Navbar = () => {
                                 <Link
                                     key={section.id}
                                     href={`#${section.id}`}
-                                    className="cursor-pointer hover:-translate-y-0.5 hover:text-purple-400/80 transition-all duration-300"
+                                    className="cursor-pointer hover:-translate-y-0.5 hover:text-purple-400/80 shadow-indigo-300 transition-all duration-300"
                                 >
                                     {section.name}
                                 </Link>

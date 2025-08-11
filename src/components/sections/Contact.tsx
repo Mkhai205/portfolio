@@ -122,7 +122,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center px-4">
             <motion.h2
                 variants={fadeInUp}
                 initial="initial"
@@ -152,7 +152,7 @@ export default function ContactForm() {
                                 id="fullName"
                                 placeholder="Enter your full name"
                                 disabled={isSubmitting}
-                                className="text-white focus:text-cyan-400"
+                                className="text-white"
                                 {...register("fullName")}
                             />
                             {errors.fullName && (
@@ -171,7 +171,7 @@ export default function ContactForm() {
                                 type="email"
                                 placeholder="Enter your email address"
                                 disabled={isSubmitting}
-                                className="text-white focus:text-cyan-400"
+                                className="text-white"
                                 {...register("email")}
                             />
                             {errors.email && (
@@ -188,7 +188,7 @@ export default function ContactForm() {
                             <Textarea
                                 id="message"
                                 placeholder="Enter your message"
-                                className="min-h-[120px] resize-none text-white focus:text-cyan-400"
+                                className="min-h-[120px] resize-none text-white"
                                 disabled={isSubmitting}
                                 {...register("message")}
                             />

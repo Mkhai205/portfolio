@@ -9,6 +9,16 @@ export const Socials = [
         src: "/icons/linkedin.svg",
         link: "https://www.linkedin.com/in/nguyen-viet-manh-khai-417a38312",
     },
+    {
+        name: "Email",
+        src: "/icons/email.png",
+        link: "mailto:kaka205.dev@gmail.com",
+    },
+    {
+        name: "Resume",
+        src: "/icons/resume.png",
+        link: "/NguyenVietManhKhai_SoftwareDeveloper_2025.pdf",
+    },
 ];
 
 export const Sections = [
