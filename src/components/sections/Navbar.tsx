@@ -90,8 +90,8 @@ const Navbar = () => {
             </div>
 
             {/* Desktop and Laptop Navbar */}
-            <div className="hidden sm:block w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-                <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+            <div className="hidden sm:block w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 lg:px-10">
+                <div className="w-full h-full flex flex-row items-center justify-between m-auto">
                     <Link href="#" className="h-auto w-auto flex flex-row items-center">
                         <Image
                             src="/icons/icons8-react.svg"
@@ -101,12 +101,12 @@ const Navbar = () => {
                             className="cursor-pointer animate-spin-slow"
                         />
 
-                        <span className="hidden md:block font-bold ml-[10px] text-gray-300">
+                        <span className="hidden lg:block font-bold ml-[10px] text-gray-300">
                             KAKA
                         </span>
                     </Link>
 
-                    <div className="flex items-center w-[360px] md:w-[540px] h-full">
+                    <div className="flex items-center w-[400px] md:w-[540px] h-full">
                         <div
                             className="flex items-center justify-between w-full border 
                             border-[#7042f861] bg-[#0300145e] px-5 py-3 rounded-full text-gray-200"

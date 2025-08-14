@@ -1,3 +1,5 @@
+import { Code, GraduationCap } from "lucide-react";
+
 export const Socials = [
     {
         name: "Github",
@@ -187,36 +189,39 @@ export const Tools = [
 
 export const Education_and_experiences = [
     {
-        title: "Software Developer",
-        job: "Security & Defense Projects",
-        date: "2021-2023",
+        title: "Computer Science",
+        job: "Bachelor of Computer Science, National Economics University",
+        date: "2023-Present",
+        icon: <GraduationCap />,
+        color: "bg-amber-500",
         contents: [
-            "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-            "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-            "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-            "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-            "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+            "Studying core subjects in computer science including algorithms, data structures, databases, and software engineering.",
+            "Participating in university research projects and programming competitions.",
+            "Developing skills in Java, JavaScript, Node.js, and React through coursework and personal projects.",
         ],
     },
     {
-        title: "Back-End Developer",
-        job: "Car Manufacture",
-        date: "2023-2024",
+        title: "International Collegiate Programming Contest",
+        job: "Contestant, ICPC VietNam National – Team NEU.ONE",
+        date: "November-2024",
+        icon: <Code />,
+        color: "bg-green-500",
         contents: [
-            "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-            "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-            "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-            "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-            "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+            "Represented National Economics University in the ICPC national programming contest.",
+            "Collaborated with team members to solve complex algorithmic problems under time constraints.",
+            "Enhanced problem-solving skills in dynamic programming, graph theory, and combinatorics.",
         ],
     },
     {
-        title: "Freelance Developer",
-        job: "Self-Employed",
-        date: "2025-Present",
+        title: "Vietnam Student Informatics Olympiad 2024",
+        job: "Third Prize in the Vietnam Student Informatics Olympiad 2024",
+        date: "December-2024",
+        icon: <Code />,
+        color: "bg-blue-500",
         contents: [
-            "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-            "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+            "Competed against top students nationwide in advanced programming and algorithm challenges.",
+            "Achieved third prize, demonstrating strong analytical and coding capabilities.",
+            "Gained valuable experience in competitive programming strategies and time management.",
         ],
     },
 ];

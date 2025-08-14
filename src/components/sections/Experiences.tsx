@@ -53,7 +53,8 @@ export default function Experiences() {
                 whileInView="animate"
                 className="header-section"
             >
-                Education and Experiences
+                My Developer Journey
+                {/* Education and Experiences */}
             </motion.h2>
             <div ref={ref} className="relative pb-20">
                 {Education_and_experiences.map((item, index) => (
@@ -66,26 +67,33 @@ export default function Experiences() {
                         transition={{ duration: 0.6, delay: index * 0.1 }}
                     >
                         <div className="sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full">
-                            <div className="absolute -left-2 w-5 h-5 border-2 rounded-full bg-purple-600" />
-                            <div className="flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl text-white group-hover:text-purple-100 transition-colors duration-300">
-                                <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+                            <div
+                                className={`absolute -left-4.5 w-10 h-10 border-2 flex items-center justify-center rounded-full text-white ${item.color}`}
+                            >
+                                {item.icon}
+                            </div>
+                            <div className="flex-col hidden gap-2 font-bold md:flex md:pl-20 transition-colors duration-300">
+                                <h3 className="text-xl md:text-4xl text-transparent bg-clip-text bg-gradient-primary">
                                     {item.date}
                                 </h3>
-                                <h3 className="text-2xl text-gray-300 group-hover:text-white transition-colors duration-300">
+                                <h3 className="text-2xl text-gray-200 group-hover:text-white">
                                     {item.title}
                                 </h3>
-                                <h3 className="text-2xl text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
+                                <h3 className="text-xl text-gray-400 group-hover:text-gray-200">
                                     {item.job}
                                 </h3>
                             </div>
                         </div>
 
                         <div className="relative w-full pl-12 md:pl-4">
-                            <div className="block mb-4 text-2xl font-bold text-left text-neutral-300 md:hidden">
-                                <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+                            <div className="block mb-4 font-bold text-left md:hidden transition-colors duration-300">
+                                <h3 className="text-2xl text-transparent bg-clip-text bg-gradient-primary">
                                     {item.date}
                                 </h3>
-                                <h3 className="group-hover:text-white transition-colors duration-300">
+                                <h3 className="text-xl text-gray-200 group-hover:text-white">
+                                    {item.title}
+                                </h3>
+                                <h3 className="text-lg text-gray-400 group-hover:text-gray-200">
                                     {item.job}
                                 </h3>
                             </div>

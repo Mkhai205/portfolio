@@ -68,7 +68,7 @@ const HeroContent = () => {
                         speed="5s"
                         thickness={2}
                     >
-                        Hire Me!
+                        Get In Touch
                     </StarBorder>
                 </motion.div>
             </div>

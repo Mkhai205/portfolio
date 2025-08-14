@@ -5,7 +5,7 @@ import { MapPinned } from "lucide-react";
 
 export default function Footer() {
     return (
-        <section className="flex flex-wrap items-center justify-between gap-5 pb-3 text-sm text-gray-300 mt-20 mb-3 px-20 z-1">
+        <section className="flex flex-wrap items-center justify-center sm:justify-between gap-5 pb-3 text-sm text-gray-300 mt-20 mb-3 px-20 z-1">
             <div className="mb-4 bg-gradient-to-r from-transparent via-gray-600 to-transparent h-[1px] w-full" />
             <div className="flex items-center gap-2">
                 <span>

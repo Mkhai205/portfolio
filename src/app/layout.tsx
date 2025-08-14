@@ -5,6 +5,7 @@ import Navbar from "@/components/sections/Navbar";
 import StarsCanvas from "@/components/sub/StarBackground";
 import Footer from "@/components/sections/Footer";
 import { Toaster } from "sonner";
+import SplashCursor from "@/components/blocks/Animations/SplashCursor/SplashCursor";
 
 const inter = Inter({
     variable: "--font-inter",
@@ -27,6 +28,7 @@ export default function RootLayout({
                 className={`${inter.variable} bg-[#030014] overflow-y-scroll overflow-x-hidden antialiased`}
             >
                 <StarsCanvas />
+                {/* <SplashCursor /> */}
                 <Navbar />
                 {children}
                 <Footer />
