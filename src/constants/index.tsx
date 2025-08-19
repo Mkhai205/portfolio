@@ -8,7 +8,7 @@ export const Socials = [
     },
     {
         name: "LinkedIn",
-        src: "/icons/linkedin.svg",
+        src: "/icons/linkedIn.svg",
         link: "https://www.linkedin.com/in/nguyen-viet-manh-khai-417a38312",
     },
     {
